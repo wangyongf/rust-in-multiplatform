@@ -1,0 +1,3 @@
+include ':lib-rusty'
+include ':app'
+rootProject.name = "rusty-android"

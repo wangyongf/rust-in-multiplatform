@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fcb0a850-2bc3-4da2-8a2b-bb549b4293c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rust.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_android.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cbindgen.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/android.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="uck9sa89" />
+  </component>
+  <component name="ProjectId" id="1hYM4dPyM8ZTRUWY5fdnl4noUO1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../github/rust-and-opengl-lessons/lesson-01" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo.install">
+    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package rustylib --lib tests" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test tests::it_works" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package rustylib --lib tests::it_works -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="install clippy" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ndk" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="ndk --target aarch64-linux-android --android-platform 22 -- build --release" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcb0a850-2bc3-4da2-8a2b-bb549b4293c6" name="Default Changelist" comment="" />
+      <created>1600183381616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600183381616</updated>
+      <workItem from="1600183382710" duration="6394000" />
+      <workItem from="1600354382835" duration="11730000" />
+      <workItem from="1600505827318" duration="1976000" />
+      <workItem from="1600618144595" duration="1926000" />
+      <workItem from="1600824805860" duration="44000" />
+      <workItem from="1600824860273" duration="2759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1220" y="448" key="#Plugins" timestamp="1600824849706">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1220" y="448" key="#Plugins/0.0.3840.2160@0.0.3840.2160" timestamp="1600824849706" />
+    <state x="1421" y="806" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600824733045">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1421" y="806" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2160@0.0.3840.2160" timestamp="1600824733045" />
+    <state x="1544" y="668" width="742" height="864" key="FileChooserDialogImpl" timestamp="1600961221656">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1544" y="668" width="742" height="864" key="FileChooserDialogImpl/0.0.3840.2160@0.0.3840.2160" timestamp="1600961221656" />
+    <state width="1840" height="585" key="GridCell.Tab.0.bottom" timestamp="1600445632920">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1840" height="585" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1600445632920" />
+    <state width="1840" height="585" key="GridCell.Tab.0.center" timestamp="1600445632919">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1840" height="585" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1600445632919" />
+    <state width="1840" height="585" key="GridCell.Tab.0.left" timestamp="1600445632919">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1840" height="585" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1600445632919" />
+    <state width="1840" height="585" key="GridCell.Tab.0.right" timestamp="1600445632920">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1840" height="585" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1600445632920" />
+    <state x="1409" y="500" width="1769" height="1295" key="SettingsEditor" timestamp="1600440637868">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1409" y="500" width="1769" height="1295" key="SettingsEditor/0.0.3840.2160@0.0.3840.2160" timestamp="1600440637868" />
+  </component>
+</project>

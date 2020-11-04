@@ -1,0 +1,4 @@
+rootProject.name = 'rusty_flutter_lib'
+
+include ":lib-rusty"
+project(":lib-rusty").path = File("/home/wangyongf/Anything/projects/rust/hello-world-rust-for-android-ios-flutter/android/lib-rusty")
